@@ -11,6 +11,8 @@ Ví dụ, ta có một chuỗi biểu thức `4 + 5 * 3` , với cách tư duy t
 
 Cho trước các chuỗi biểu thức lưu trong file text, tính và in lần lượt kết quả của từng biểu thức trên từng dòng khác nhau.
 
+Giả sử chuỗi biểu thức nhập vào là có nghĩa và các toán hạng thuộc dạng số nguyên. 
+
 Ví dụ:
 
 | Input (file expression) | Output (terminal) |
