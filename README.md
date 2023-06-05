@@ -4,14 +4,14 @@ Tính giá trị chuỗi biểu thức chính là một trong những bài toán
 
 Ví dụ, ta có một chuỗi biểu thức `4 + 5 * 3` , với cách tư duy toán học của con người ta dễ dàng phân tích, các toán hạng, các phép toán phép nào phải làm trước, phép nào phải làm sau:
 
-1. Đọc từ trái sang phải, thấy trong biểu thức có phép nhân và cộng. Độ ưu tiên phép cộng cao hơn so với độ ưu tiên của phép nhân nên tính `5 * 3` trước được kết quả là `15` .
+1. Đọc từ trái sang phải, thấy trong biểu thức có phép nhân và cộng. Độ ưu tiên phép nhân cao hơn so với độ ưu tiên của phép cộng nên tính `5 * 3` trước được kết quả là `15` .
 2. Lúc này bài toán chuyển thành `4 + 15` được kết quả là `19` .
 
 Để máy tính có thể hiểu và tính được thì ta cần chuyển biểu thức gốc, biểu thức có dạng trung tố (các toán tử bị kẹp giữa các toán hạng) thành biểu thức dạng hậu tố (các toán hạng đứng trước các toán tử) và tính toán. Để có thể hiểu được các dạng biểu thức, cũng như cách tính toán tương ứng với từng dạng biểu thức thì đọc thêm tại [đường dẫn](https://www.codingninjas.com/codestudio/library/infix-postfix-and-prefix-conversion) này.
 
 Cho trước các chuỗi biểu thức lưu trong file text, tính và in lần lượt kết quả của từng biểu thức trên từng dòng khác nhau.
 
-Giả sử chuỗi biểu thức nhập vào là có nghĩa và các toán hạng thuộc dạng số nguyên. 
+Giả sử chuỗi biểu thức nhập vào là có nghĩa và các toán hạng thuộc dạng số nguyên.************ 
 
 Ví dụ:
 
